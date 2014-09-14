@@ -1,0 +1,3 @@
+phpstorm_yml_homepage:
+    path:     /qqhello/{name}
+    defaults: { _controller: PhpstormYmlBundle:Default:index }

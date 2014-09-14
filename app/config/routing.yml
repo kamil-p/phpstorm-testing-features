@@ -1,0 +1,28 @@
+test_service:
+    resource: "@TestServiceBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+phpstorm_base:
+    resource: "@PhpstormBaseBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+phpstorm_php:
+    resource: "@PhpstormPhpBundle/Resources/config/routing.php"
+    prefix:   php/
+
+phpstorm_xml:
+    resource: "@PhpstormXmlBundle/Resources/config/routing.xml"
+    prefix:   xml/
+
+phpstorm_annotation:
+    resource: "@PhpstormAnnotationBundle/Controller/"
+    type:     annotation
+    prefix:   annotation/
+
+phpstorm_yml:
+    resource: "@PhpstormYmlBundle/Controller/"
+    type:     annotation
+    prefix:   yml/
+

@@ -1,0 +1,7 @@
+parameters:
+#    phpstorm_yml.example.class: Phpstorm\YmlBundle\Example
+
+services:
+  phpstorm.yml_service:
+        class: 'Phpstorm\YmlBundle\Service\YmlService'
+        arguments: ['@translator']
