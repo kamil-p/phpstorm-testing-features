@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Test\ServiceBundle;
+namespace Test\ServiceBundle\Command;
 
 
 use Symfony\Component\Console\Command\Command;
